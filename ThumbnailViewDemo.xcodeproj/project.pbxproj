@@ -17,11 +17,11 @@
 		4F36CB4E211850F000BAEE68 /* ThumbnailViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F36CB4A211850EF00BAEE68 /* ThumbnailViewDelegate.swift */; };
 		4F36CB4F211850F000BAEE68 /* ThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F36CB4B211850EF00BAEE68 /* ThumbnailView.swift */; };
 		4F36CB56211851AE00BAEE68 /* MyItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F36CB50211851AE00BAEE68 /* MyItem.xib */; };
-		4F36CB57211851AE00BAEE68 /* test1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F36CB51211851AE00BAEE68 /* test1.png */; };
 		4F36CB58211851AE00BAEE68 /* MyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F36CB52211851AE00BAEE68 /* MyItem.swift */; };
 		4F36CB59211851AE00BAEE68 /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F36CB53211851AE00BAEE68 /* close@2x.png */; };
 		4F36CB5A211851AE00BAEE68 /* test2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F36CB54211851AE00BAEE68 /* test2.png */; };
 		4F36CB5B211851AE00BAEE68 /* close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F36CB55211851AE00BAEE68 /* close@3x.png */; };
+		4F36CB5D211864BD00BAEE68 /* test1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F36CB5C211864BD00BAEE68 /* test1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,11 +37,11 @@
 		4F36CB4A211850EF00BAEE68 /* ThumbnailViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailViewDelegate.swift; sourceTree = "<group>"; };
 		4F36CB4B211850EF00BAEE68 /* ThumbnailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailView.swift; sourceTree = "<group>"; };
 		4F36CB50211851AE00BAEE68 /* MyItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyItem.xib; sourceTree = "<group>"; };
-		4F36CB51211851AE00BAEE68 /* test1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test1.png; sourceTree = "<group>"; };
 		4F36CB52211851AE00BAEE68 /* MyItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyItem.swift; sourceTree = "<group>"; };
 		4F36CB53211851AE00BAEE68 /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
 		4F36CB54211851AE00BAEE68 /* test2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test2.png; sourceTree = "<group>"; };
 		4F36CB55211851AE00BAEE68 /* close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@3x.png"; sourceTree = "<group>"; };
+		4F36CB5C211864BD00BAEE68 /* test1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 				4F36CB55211851AE00BAEE68 /* close@3x.png */,
 				4F36CB52211851AE00BAEE68 /* MyItem.swift */,
 				4F36CB50211851AE00BAEE68 /* MyItem.xib */,
-				4F36CB51211851AE00BAEE68 /* test1.png */,
+				4F36CB5C211864BD00BAEE68 /* test1.png */,
 				4F36CB54211851AE00BAEE68 /* test2.png */,
 				4F36CB342118507D00BAEE68 /* AppDelegate.swift */,
 				4F36CB362118507D00BAEE68 /* ViewController.swift */,
@@ -176,7 +176,7 @@
 				4F36CB4D211850F000BAEE68 /* image.bundle in Resources */,
 				4F36CB56211851AE00BAEE68 /* MyItem.xib in Resources */,
 				4F36CB5A211851AE00BAEE68 /* test2.png in Resources */,
-				4F36CB57211851AE00BAEE68 /* test1.png in Resources */,
+				4F36CB5D211864BD00BAEE68 /* test1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
