@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="iN0-l3-epB" customClass="MyItem" customModule="imagePicker" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="234" height="192"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test1.png" translatesAutoresizingMaskIntoConstraints="NO" id="IrC-6k-alG">
+                    <rect key="frame" x="0.0" y="0.0" width="234" height="192"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ezf-sc-pIc">
+                    <rect key="frame" x="202" y="0.0" width="32" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="2IF-J1-nQG"/>
+                        <constraint firstAttribute="width" constant="32" id="tZa-Qg-4xk"/>
+                    </constraints>
+                    <state key="normal" image="close.png"/>
+                    <connections>
+                        <action selector="deleteAction:" destination="-1" eventType="touchUpInside" id="KWA-KT-swh"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="THx-ey-byh">
+                    <rect key="frame" x="0.0" y="0.0" width="234" height="192"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <color key="textColor" red="0.98312717009999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="ezf-sc-pIc" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="6wy-dS-lIY"/>
+                <constraint firstItem="IrC-6k-alG" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="DiY-fY-W3m"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="THx-ey-byh" secondAttribute="trailing" id="J0n-Cu-MXs"/>
+                <constraint firstItem="THx-ey-byh" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Lbr-ma-pAn"/>
+                <constraint firstItem="ezf-sc-pIc" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="O3Q-m8-Lvm"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="IrC-6k-alG" secondAttribute="trailing" id="TQ4-id-gaq"/>
+                <constraint firstItem="THx-ey-byh" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="abM-CA-tRW"/>
+                <constraint firstItem="IrC-6k-alG" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="ggP-oe-5BU"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="THx-ey-byh" secondAttribute="bottom" id="gib-8b-sFV"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="IrC-6k-alG" secondAttribute="bottom" id="riA-M0-7eR"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="245" y="-254"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="close.png" width="16" height="16"/>
+        <image name="test1.png" width="1067" height="2312"/>
+    </resources>
+</document>
